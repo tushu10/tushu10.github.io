@@ -286,6 +286,21 @@
   </div>    
 </div>
 
+<div class="blog" id="blog">
+  <div class="container">
+    <ul class="inline-list large-12 columns">
+      {% for post in site.posts %} 
+
+      <li class="large-12">
+        <span class="left">{{ post.date | date: "%Y-%m-%d" }}</span> 
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+
+    </ul>
+  </div>
+</div>
+
 <div class="footer">
   <div class="container">
       <img src="https://img.alicdn.com/imgextra/i3/3832963542/O1CN011c2HJz6PLWRbN4b_!!3832963542.png" class="visible-lg">
