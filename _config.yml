@@ -1,0 +1,8 @@
+title: 2018智慧图书馆厂家排名 - 行业品牌网
+keywords: 智慧图书馆厂家排名,智慧图书馆厂家,智慧图书馆
+description: 2018智慧图书馆厂家排名，在国家“双一流”战略布局和科学技术大发展的背景下，是由品牌信用指数及几十项数据统计计算系统自动生成的。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tushu10.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# url标准化
+permalink: /:categories/:title.html
