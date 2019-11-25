@@ -11,10 +11,8 @@ description: 智慧图书馆行业资讯、新闻、问答、评论。
   <li class="large-12">
     <span class="left">{{ post.date | date: "%Y-%m-%d" }}</span> 
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    <p>{{ post.excerpt }}</p>
-  </li>
-  <li>
-  	<hr>
+    {{ post.excerpt }}
+    <hr>
   </li>
   {% endfor %}
 
