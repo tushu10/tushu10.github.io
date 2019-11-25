@@ -95,6 +95,19 @@ img{
 	line-height: 160px;
 }
 
+/*小屏幕适配*/
+@media screen and (max-width: 1024px){
+	.header {
+		height: 60px;
+	}
+	.header .sitename h1 {
+		line-height: 60px;
+	}
+	.header .logo {
+		line-height: 60px;
+	}
+}
+
 .navbar {
 	/*height: 53px;*/
 	background-color: #A91324;
@@ -105,7 +118,7 @@ img{
 .navbar ul li a {
 	color: #fff;
 	font-size: 18px;
-	padding-left: 40px;
+	/*padding-left: 40px;*/
 	padding-right: 40px;
 }
 
