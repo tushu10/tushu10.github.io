@@ -5,10 +5,10 @@ keywords: 智慧图书馆厂家排名,智慧图书馆厂家,智慧图书馆
 description: 2018智慧图书馆厂家排名，在国家“双一流”战略布局和科学技术大发展的背景下，是由品牌信用指数及几十项数据统计计算系统自动生成的。
 ---
 
-<ul class="inline-list large-12 columns">
-  {% for post in site.posts limit:5 %} 
+<ul class="row">
+  {% for post in site.posts limit:10 %} 
 
-  <li class="large-12">
+  <li class="col-md-6">
     <span class="left">{{ post.date | date: "%Y-%m-%d" }}</span> 
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
