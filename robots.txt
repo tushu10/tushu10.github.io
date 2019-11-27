@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /upload/
+Sitemap: https://tushu10.github.io/sitemap.xml
