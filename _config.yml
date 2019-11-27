@@ -9,3 +9,5 @@ permalink: /:categories/:title.html
 
 gems:
   - jekyll-sitemap
+
+empty-pre-next: "没有了"
