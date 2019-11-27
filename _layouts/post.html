@@ -12,15 +12,11 @@
       			<li class="col-md-6">
       				上一篇：{{ if page.previous }}
 <a href="{{ page.previous.url }}">{{ page.previous.title | truncatewords:5 }}</a>
-					{{ else }}
-					{{ site.empty-pre-next }}
 					{{ endif }}
 				</li>
   				<li class="col-md-6">
   					下一篇：{{ if page.next }}
 <a href="{{ page.next.url }}">{{ page.next.title | truncatewords:5 }}</a>
-  					{{ else }}
-  					{{ site.empty-pre-next }}
   					{{ endif }}
   				</li>
       		</ul>
