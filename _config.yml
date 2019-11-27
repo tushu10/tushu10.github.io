@@ -6,3 +6,6 @@ url: "https://tushu10.github.io" # the base hostname & protocol for your site, e
 
 # url标准化
 permalink: /:categories/:title.html
+
+gems:
+  - jekyll-sitemap
