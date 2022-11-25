@@ -1,8 +1,7 @@
 {% include header.html %}
 
-
 <div class="mouth" id="mouth" style="background-color: #292929;">
-  	<div class="container">
+  <div class="container">
     	<h2 style="text-align: center;">{{ page.title }}</h2>
     	<p style="text-align: center;">{{ page.date | date: "%Y-%m-%d" }}</p>
       	{{ content }}
@@ -21,15 +20,9 @@
   				</li>
       		</ul>
       	</p>
+	<div id="vcomments"></div>
+      	<noscript> 为正常使用评论功能请激活JavaScript</noscript>
   </div>
-
-
 </div>
-
-
-
-<div id="vcomments"></div>
-      <noscript> 为正常使用评论功能请激活JavaScript</noscript>
-
 
 {% include footer.html %}
