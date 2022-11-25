@@ -65,5 +65,28 @@ var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e
 document.write('<script src="' + src + '" id="sozz"><\/script>');
 })();
 </script>
+
+<!-- 存储服务 -->
+<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+
+<script type="text/javascript">
+  // 评论
+  var GUEST = ['nick','mail','link'];
+  var guest = 'nick,mail';
+  guest = guest.split(',').filter(function (item) {
+    return GUEST.indexOf(item)>-1;
+  });
+  new Valine({
+      el: '#vcomments' ,
+      appId: 'IWmlBVqLt9C44rnTM4PxrU0D-gzGzoHsz',
+      appKey: 'h2keVSu7gHQNW0LPkjEVjRI2',
+      placeholder: '给你喜欢的品牌评论吧~',
+      avatar:'mp',
+      guest_info:guest,
+      pageSize:'10' || 10,
+      visitor: true, // 阅读量统计
+  });
+</script>
 </body>
 </html>
